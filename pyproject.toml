@@ -1,0 +1,13 @@
+[project]
+name = "mlops"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "kagglehub>=0.3.10",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "torch-directml>=0.2.5.dev240914",
+]

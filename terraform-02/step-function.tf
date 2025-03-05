@@ -22,7 +22,7 @@ resource "aws_sfn_state_machine" "pipeline" {
           "ProcessingResources": {
             "ClusterConfig": {
               "InstanceCount": 1,
-              "InstanceType": "ml.m5.xlarge",
+              "InstanceType": "ml.m5.large",
               "VolumeSizeInGB": 10
             }
           },
@@ -94,7 +94,7 @@ resource "aws_sfn_state_machine" "pipeline" {
           },
           "ResourceConfig": {
             "InstanceCount": 1,
-            "InstanceType": "ml.m5.xlarge",
+            "InstanceType": "ml.m5.large",
             "VolumeSizeInGB": 30
           },
           "RoleArn": "arn:aws:iam::211125785534:role/mnist-step-functions-role",
