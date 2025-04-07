@@ -1,0 +1,9 @@
+.terraform/
+venv/
+.venv/
+data/
+mlruns/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.key

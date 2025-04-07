@@ -1,0 +1,11 @@
+[project]
+name = "mlops"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.37.28",
+    "paramiko>=3.5.1",
+    "scp>=0.15.0",
+]
